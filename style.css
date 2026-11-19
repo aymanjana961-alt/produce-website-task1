@@ -1,0 +1,177 @@
+
+/* General Style */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #F5EBDD;
+    color: #493426;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background-color: #493426;
+}
+
+/* Logo */
+.logo {
+    color: white;
+    font-size: 28px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.logo span {
+    color: #D6B48C;
+}
+
+/* Navigation */
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 12px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #D6B48C;
+}
+
+/* Home Section */
+.home {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 70px 40px;
+    gap: 30px;
+}
+
+.home-text {
+    max-width: 500px;
+}
+
+.home-text h1 {
+    font-size: 55px;
+    margin-bottom: 10px;
+}
+
+.home-text h2 {
+    font-size: 28px;
+    color: #9B7653;
+}
+
+.home-text p {
+    font-size: 18px;
+    line-height: 1.7;
+}
+
+/* Coffee Picture */
+.home-image img {
+    width: 400px;
+    max-width: 100%;
+    border-radius: 20px;
+}
+
+/* Button */
+.button {
+    display: inline-block;
+    background-color: #493426;
+    color: white;
+    padding: 15px 25px;
+    text-decoration: none;
+    border-radius: 8px;
+    margin-top: 15px;
+}
+
+.button:hover {
+    background-color: #9B7653;
+}
+
+/* About Section */
+.about {
+    background-color: #E8D7C3;
+    padding: 45px 20px;
+    text-align: center;
+}
+
+.about h2 {
+    font-size: 30px;
+}
+
+.reasons p {
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+/* Best Sellers */
+.best-sellers {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.best-sellers h2 {
+    font-size: 32px;
+}
+
+.products {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.product {
+    background-color: white;
+    padding: 15px;
+    border-radius: 15px;
+    width: 220px;
+}
+
+.product img {
+    width: 70%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.product h3 {
+    color: #493426;
+}
+
+/* Footer */
+footer {
+    background-color: #493426;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+/* Mobile Screen */
+@media (max-width: 700px) {
+
+    header {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    nav a {
+        margin: 5px;
+    }
+
+    .home {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .home-text h1 {
+        font-size: 40px;
+    }
+
+    .home-image img {
+        width: 100%;
+    }
+
+}
